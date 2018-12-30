@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html ng-app="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <link rel="stylesheet" href="assets/css/sheet_2.css">
+</head>
+
+<body>
+   <div ng-include="'includes/navBar.html'"></div>
+   
+		<br><br>
+		<div id="myCarousel" class="carousel slide aboutmeCarousel" data-ride="carousel">
+		<!-- Indicators -->
+		<ol class="carousel-indicators">
+		  <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+		  <li data-target="#myCarousel" data-slide-to="1"></li>
+		  <li data-target="#myCarousel" data-slide-to="2"></li>
+		  <li data-target="#myCarousel" data-slide-to="3"></li>
+		  <li data-target="#myCarousel" data-slide-to="4"></li>
+		</ol>
+
+		<!-- Wrapper for slides -->
+		<div class="carousel-inner" >
+		  <div class="item active">
+			<img id="aboutmeCarouselImg" src="assets/img/IMG_0523.JPG" alt="">
+		  </div>
+		  
+		  <div class="item">
+			<img id="aboutmeCarouselImg" src="assets/img/IMG_0891.JPG" alt="">
+		  </div>
+		  
+		  <div class="item">
+			<img id="aboutmeCarouselImg" src="assets/img/IMG_0526.JPG" alt="">
+		  </div>
+		  
+		  <div class="item">
+			<img id="aboutmeCarouselImg" src="assets/img/IMG_0547.JPG" alt="">
+		  </div>
+		  
+		  <div class="item">
+			<img id="aboutmeCarouselImg" src="assets/img/IMG_0483.JPG" alt="">
+		  </div>
+		</div>
+
+		<!-- Left and right controls -->
+		<a class="left carousel-control" href="#myCarousel" data-slide="prev">
+		  <span class="glyphicon glyphicon-chevron-left"></span>
+		  <span class="sr-only">Previous</span>
+		</a>
+		<a class="right carousel-control" href="#myCarousel" data-slide="next">
+		  <span class="glyphicon glyphicon-chevron-right"></span>
+		  <span class="sr-only">Next</span>
+		</a>
+		</div>
+    <div class="container givingBackContainer">
+        <h1 class="mainFont greyColor">Always Giving Back</h1><img class="img-responsive" src="assets/img/shane_3.JPG">
+				<br>
+				<p>The less fortunate matters. Proud Rotaract Member. Rotaract is and organization geard towards improving the well being of others. It emphasizes voluntarism to the highest order and contributes regularly to multiple organiations that helps the needy.</p>
+		</div>
+		<div class="container myStoryContainer">
+        <div class="row">
+            <div class="col-lg-3"><img class="img img-responsive" src="assets/img/shane_1.JPG"></div>
+            <div class="col-lg-8">
+                <h1 class="mainFont">My Story</h1>
+                <p>Born and raised in the fruitful parish of St. Elizabeth Jamaica. Shane's story all started at the age of 11 when he got his first desktop computer in the year 2006. He was so fascinated
+                    he began to wonder how the computer actually worked and what components were inside. He would take computers apart and to find the purpose of each component. He then went on to building and repairing computers. After he familiarized himself
+                    of how the components worked he then began to wonder what made all these flashy programs and computer games tick and that's what created the competent software developer before you today. </p>
+            </div>
+        </div>
+		</div>
+		<br>
+    <div class="container proficiencyContainer">
+        <h1 class="mainFont" align="center">Proficient Languages</h1>
+        <div class="row">
+            <div class="col-md-1"><img class="img-responsive" src="assets/img/c.png"></div>
+            <div class="col-md-1"><img class="img-responsive" src="assets/img/python.png"></div>
+            <div class="col-md-1"><img class="img-responsive" src="assets/img/java1.png"></div>
+            <div class="col-md-1"><img class="img-responsive" src="assets/img/javascript.png"></div>
+            <div class="col-md-1"><img class="img-responsive" src="assets/img/xml.png"></div>
+            <div class="col-md-1"><img class="img-responsive" src="assets/img/html.png"></div>
+            <div class="col-md-1"><img class="img-responsive" src="assets/img/css.jpg"></div>
+            <div class="col-md-1"><img class="img-responsive" src="assets/img/php.png"></div>
+						<div class="col-md-1"><img class="img-responsive" src="assets/img/jquery.png"></div>
+						<div class="col-md-1"><img class="img-responsive" src="assets/img/angularjs.png"></div>
+						<div class="col-md-1 noPaddingCol"><img class="img-responsive" src="assets/img/ember.jpg"></div>
+						<div class="col-md-1"><img class="img-responsive" src="assets/img/vue.png"></div>
+				</div>
+				<div class="row center-block">
+					<div class="col-md-5"></div>
+					<div class="col-md-1 center-block"><img class="img-responsive" src="assets/img/bootstrap.png"></div>
+					<div class="col-md-1 noPaddingCol"><img class="img-responsive" src="assets/img/firebase.png"></div>
+					<div class="col-md-5"></div>	
+				</div>
+    </div>
+	<div ng-include="'includes/footer.html'"></div>
+</body>
+
+</html>

@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html ng-app="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/css/sheet_2.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+</head>
+
+<body>
+    <div ng-include = "'includes/navBar.html'"></div>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" style="border: 2px solid #0066cc; background-color: #ffffff;" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navcol">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar" style="background-color: #0066cc"></span>
+                <span class="icon-bar" style="background-color: #0066cc"></span>
+                <span class="icon-bar" style="background-color: #0066cc"></span>
+            </button>
+            <a class="navbar-brand navbar-link" style="color:#0066cc" href="index.html"><img class="img-circle" style="float:left; margin-right:15px;" src="assets/img/shane_profile_2.png" id="logo">S. Barrett</a>
+        </div>
+        <div class="collapse navbar-collapse" id="navcol">    
+            <ul class="nav navbar-nav navbar-right">
+            <li role="presentation"><a href="projects.html" class="mainFont"><span class="glyphicon glyphicon-file"></span> Projects</a></li>
+                <li role="presentation"><a href="aboutme.html"  class="mainFont"><span class="glyphicon glyphicon-user"></span> About me</a></li>
+                <li role="presentation"><a href="" data-toggle="modal" data-target="#contactModal"  class="mainFont"><span class="glyphicon glyphicon-phone"></span> Contact </a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+
+<div class="modal fade" id="contactModal" role="dialog">
+<div class="modal-dialog">
+    <!-- Modal content-->
+    <div class="modal-content">
+    <div class="modal-header alert alert-info">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title mainFont">Contact</h4>
+    </div>
+    <div class="modal-body">
+        <img src="assets/img/shane_profile_2.png" class="img img-reponsive img-circle center-block" width="200" height="200">
+        <div align="center">
+            <h4 class="greyColor" style="font-weight:bold">Shane O. Barrett</h4>
+            <p class="greyColor">Software Developer</p>
+            <p class="greyColor">Shanowiz@yahoo.com</p>
+            <p class="greyColor">Shane.Barrett@ComfortListingz.com</p>
+            <p class="greyColor">1 (876) 354-3713</p>
+            <row class="center-block">
+                <div class="col-md-12 socialNetworksIcons center-block">
+                    <span>
+                        <a href="https://www.linkedin.com/in/shane-barrett-382666143/"><img src="assets/img/linkedin.png"></a>
+                        <a href="https://github.com/shanowiz"><img class="img" height="36" src="assets/img/github.png"></a>
+                        <a href="#"> <img src="assets/img/google+.png"></a>
+                </span>
+                </div>
+            </div>
+        </div>
+        <br>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-info" data-dismiss="modal">Close</button>
+    </div>
+    </div>
+    
+</div>
+</div>
+
+
+
+   <br><br><br>
+   <div class="container webContainer">
+        <img class="img-rounded center-block" src="assets/img/advantage_general_logo.jpg">
+        <h1 class="mainFont greyColor" align="center">Advantage Express</h1>
+        <p class="text-center">Shane Barrett is a member of the original team that lauched Advantage General's first in Branch self serve apllication and played a vital role in the apllication's success. The application is currently in operation in branches islandwide. </p>
+        <img class="img-rounded center-block advantageExpress" src="assets/img/advantage_express.png" style="width:40%; height:40%">
+        <br>
+        <hr>
+    </div>
+    <div class="container mobileContainer" style="margin-top:-50px;">
+        <h1 class="mainFont greyColor">Unify Utech</h1>
+        <img class="img-responsive" src="assets/img/unify.png">
+        <h3 class="mainFont greyColor" align="center" style="margin-top:30px;">Unify Mobile</h3>
+        <p class="text-center" style="margin-top:-20px;">Unify is an events notification application. It provides students with a list of events that are happening around university campus and notify students when a new event has been scheduled. Unify consists of both a web and mobile application. The
+            mobile application is responsible for displaying events amonst other features.</p>
+        <div class="row"> 
+            <div class="col-md-4"><center><img src="assets/img/2018-05-08 (11).png" height="450" id="mobileImg"><center><hr></div>
+            <div class="col-md-4"><center><img src="assets/img/2018-05-08 (12).png" height="450" id="mobileImg"><center><hr></div>
+            <div class="col-md-4"><center><img src="assets/img/2018-05-08 (13).png" height="450" id="mobileImg"><center><hr></div>
+        </div>
+    </div>
+
+     <div class="container webContainer" style="margin-top:-70px;">
+        <h3 class="mainFont greyColor" align="center">Unify Web</h3>
+        <p class="text-center" style="margin-top:-20px;">The web application is responsible for the uploading and management of events and users.</p>
+        <div class="row">
+            <div class="col-md-6"><img src="assets/img/2018-05-08 (8).png" id="webImg"><hr></div>
+            <div class="col-md-6"><img src="assets/img/2018-05-08 (7).png" id="webImg"><hr></div>
+        </div>
+    </div>
+    <div style="margin-top:-60px;" class="alert alert-info center-block projectInfoDiv"><strong>Note: </strong>Most of the projects listed are still in the development stage and as such only a tempory hosted link is provided to view some of them.</div>
+    <br>
+    <div class="container webContainer">
+            <img class="img-responsive" src="assets/img/comfort_listingz_logo.png">
+            <h1 class="mainFont greyColor" align="center">Comfort Listingz</h1>
+            <p class="text-center">Comfort Listingz is an application being developed to provide individuals, mainly students with realiable, safe, comfotable housing.</p>
+            <div class="row">
+                <div class="col-md-6"><img src="assets/img/2018-12-28.png" id="webImg"><hr></div>
+                <div class="col-md-6"><img src="assets/img/2018-12-28 (7).png" id="webImg"><hr></div>
+            </div>
+            <div class="row"> 
+                    <div class="col-md-4"><center><img src="assets/img/2018-12-28 (4).png" height="470" id="mobileImg"><center><hr></div>
+                    
+                    <div class="col-md-4"><center><img src="assets/img/2018-12-28 (6).png"  height="470" id="mobileImg"><center><hr></div>
+                    
+                    <div class="col-md-4"><center><img src="assets/img/2018-12-28 (5).png"  height="470" id="mobileImg"><center><hr></div>
+            </div>
+            <a href="https://rentalapp-a52ca.firebaseapp.com/" class="btn btn-md btn-info center-block" style="width: 200px; margin-top:-30px;" >View Sample Application</a>
+    </div>
+    <div class="container webContainer">
+            <h1 class="mainFont greyColor" align="center">Ember.Js Project</h1>
+            <p class="text-center">This is a simple web application developed using the Ember.Js javascript framework that does a range of calculations.</p>
+            <div class="row">
+                <div class="col-md-6"><img src="assets/img/2018-05-08 (24).png" id="webImg"><hr></div>
+                <div class="col-md-6"><img src="assets/img/2018-05-08 (25).png" id="webImg"><hr></div>
+            </div>
+            <a href="https://apl-project-2018-6b4d3.firebaseapp.com/" class="btn btn-md btn-info center-block" style="width: 200px;margin-top:-20px;" >View Application</a>
+    </div>
+
+
+	<div ng-include="'includes/footer.html'"></div>
+</body>
+
+</html>

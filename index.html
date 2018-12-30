@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html ng-app="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>portfolio</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.4/angular.min.js"></script>
+    <link rel="stylesheet" href="assets/css/sheet_2.css">
+</head>
+
+<body>
+  <nav class="navbar navbar-default navbar-fixed-top">
+    <div id="headingDiv">
+        <div class="jumbotron">
+            <h1>Welcome to my life </h1>
+            <p>Here you will find the professional developemnt portfolio of Shane Barrett</p>
+            <p></p>
+        </div>
+    </div>
+    <div class="aboutmeDiv">
+        <div class="row">
+			<div class="col-md-12">
+            <h1 class="text-right aboutmeHeading mainFont">My Story</h1></div>
+            <div class="col-md-5"><img class="img-circle img-responsive aboutMeImg" src="assets/img/shane_1.JPG" width="400" height="300"></div>
+            <div class="col-md-7">
+                <p class="text-right">Mr. Barrett is a competent Full-Stack software developer. Born and raised in the fruitful parish of St. Elizabeth Jamaica Mr. Barrett's story all started at the age of 11 when he got his first desktop computer in the year 2006. He was so fascinated
+                    he began to wonder how the computer actually worked and what components were inside.</p>
+                <a class="btn btn-info btn-sm" role="button" href="aboutme.html">Learn More</a>
+            </div>
+        </div>
+    </div>
+    <div class="projectsDiv">
+        <div class="container projectsContainer">
+            <h1 class="projectHeading mainFont">Projects </h1>
+            <div class="row">
+                <div class="col-md-4 firstItem" id ="projectsImgMobile">
+                    <h3 class="mainFont greyColor"> <a href="projects.html">Mobile Apps</a></h3>
+                    <a href="projects.html"> <img src="assets/img/mobile1.jpg"></a>
+                </div>
+                <div class="col-md-4 firstItem" id ="projectsImgWeb">
+                    <h3 class="mainFont greyColor"> <a href="projects.html">Web Apps</a></h3>
+                    <a href="projects.html"> <img src="assets/img/web2.jpg"></a>
+                </div>
+                <div class="col-md-4 firstItem" id ="projectsImgDesktop">
+                    <h3 class="mainFont greyColor"> <a href="projects.html">Desktop Apps</a></h3>
+                    <a href="projects.html"> <img src="assets/img/desktop.png"></a>
+                </div>
+            </div>
+        </div>
+    </div>
+   
+    <div ng-include="'includes/footer.html'"></div>
+	<script src="https://unpkg.com/scrollreveal/dist/scrollreveal.min.js"></script>
+	
+	<script>
+		window.sr = ScrollReveal();
+		//sr.reveal ('.aboutme', {durtation: 2000, origin: 'right'});
+		sr.reveal('.jumbotron', {duration: 2000, origin:'bottom', distance:'300px'});
+		sr.reveal('#headingDiv', {duration: 1000, origin:'bottom', distance:'300px'});
+		sr.reveal('.col-md-5', {duration: 2000, origin:'bottom', distance:'300px'});
+		sr.reveal('.col-md-12', {duration: 1000, origin:'bottom', distance:'300px'});
+		sr.reveal('.col-md-7', {duration: 2000, origin:'bottom', distance:'300px'});
+		sr.reveal('.projectsDiv', {duration: 1000, origin:'bottom', distance:'300px', viewFactor: 0.2});
+		sr.reveal('#projectsImgMobile', {duration: 2000, origin:'bottom', distance:'300px', viewFactor: 0.2});
+		sr.reveal('#projectsImgWeb', {duration: 2000, origin:'bottom', distance:'300px', viewFactor: 0.2});
+		sr.reveal('#projectsImgDesktop', {duration: 2000, origin:'bottom', distance:'300px', viewFactor: 0.2});
+	</script>
+</body>
+
+</html>

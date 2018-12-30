@@ -1,0 +1,607 @@
+body{
+  font-family:Arial, Holvetica, sans-serif;
+  font-size:16px;
+}
+
+div.container-fluid{
+  background-color:white;
+}
+
+.mainFont {
+    font-family: "Times New Roman", Times, serif;    
+}
+
+.greyColor {
+    color: #333333;
+  }
+
+#headingDiv{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/sage.jpg) no-repeat;
+  background-size:cover;
+  height:400px;
+  margin-top:15px;
+  border-radius:15px;
+}
+
+@media (max-width:991px) {
+  #headingDiv{
+    padding:20px;
+	margin-top:35px;
+  }
+}
+
+
+
+#headingDiv .jumbotron{
+  //background-color:rgba(255,255,255,0.75);
+  background-color:#e6e6ff;
+  padding:40px;
+  border-radius:20px;
+  max-width:800px;
+  margin:0 auto;
+  opacity:0.87;
+  
+}
+
+@media (max-width:991px) {
+  #headingDiv .jumbotron{
+    padding:20px;
+  }
+}
+
+.projectsContainer h1{
+  text-align:center;
+}
+
+.projectsContainer{
+  text-align:center;
+  padding:40px 0;
+}
+
+#projectsHeading{
+  font-weight:normal;
+}
+
+.projectHeading{
+  font-weight:normal;
+}
+
+.col-md-4.firstItem h3{
+  font-weight:normal;
+  margin-top:20px;
+  font-size:25px;
+}
+
+.container.projectsContainer a{
+  text-decoration: none;
+}
+
+.col-md-4.firstItem{
+  padding:20px;
+}
+
+.container.projectsContainer img{
+  height:200px;
+  width:250px;
+  margin-top:20px;
+}
+
+div.projectsDiv{
+  background-color:#e6e6ff;
+  padding:0;
+}
+
+.aboutmeDiv{
+  padding:40px;
+}
+
+.aboutmeHeading{
+  font-weight:normal;
+}
+
+.col-md-7 p{
+  padding:10px;
+  font-size:17px;
+  color:grey;
+}
+
+.aboutmeDiv a{
+  float:right;
+  margin-top:50px;
+}
+
+@media (max-width:991px) {
+    .aboutmeDiv a {
+        margin-top:20px;
+    }
+}
+
+.aboutmeDiv img{
+  margin:0 auto;
+  max-width:350px;
+  margin:0 auto;
+}
+
+.projectsDiv img{
+  border-radius:100%;
+}
+
+.footer img{
+  margin:0 auto;
+  max-width:30px;
+}
+
+.footer{
+  padding:40px;
+}
+
+#linkedin{
+  float:left;
+}
+
+#googlePlus{
+  float:right;
+}
+
+@media (max-width:991px) {
+    .aboutmeHeading {
+      text-align: center;
+      padding-bottom: 40px;
+    }
+  }
+
+.navbar .navbar-brand {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 23px;
+  }
+
+.navbar-default .navbar-brand{
+  color:black;
+}
+
+.navbar .navbar-right li a{
+   //font-size:10px;
+   color: #333333;
+}
+
+.navbar .navbar-right li a:hover{
+    background-color: #0066cc;
+    color: #ffffff;
+}
+
+.navbar-default .navbar-link:hover{
+  color:black;
+}
+
+.navbar-default .navbar-nav .navbar-right li a:hover{
+  background-color: red;
+}
+
+a{
+  color:black;
+}
+
+#logo{
+  height:50px;
+  //border-radius:100px;
+  width:50px;
+  margin-right:10px;
+  margin-top:-4px;
+}
+
+nav.navbar.navbar-default.navbar-fixed-top{
+  background-color:#e6e6ff;
+}
+
+a.navbar-brand.navbar-link{
+  color:black;
+}
+
+#dropdown{
+  border-radius:10px;
+  background-color:#e6e6ff;
+}
+
+.container.footerContainer{
+  max-width:100px;
+}
+
+.row{
+  margin-bottom:50px;
+}
+
+.container.givingBackContainer{
+  padding:40px;
+}
+
+.container.givingBackContainer h1{
+  font-weight:normal;
+  text-align:center;
+  padding:20px;
+}
+
+.container.givingBackContainer img{
+  max-height:300px;
+  border-radius:40px;
+  width:300px;
+  margin:0 auto;
+}
+
+.container.givingBackContainer p{
+  text-align:center;
+  padding:20px;
+  color:grey;
+}
+
+.container.myStoryContainer img{
+  margin:0 auto;
+  border-radius:40px;
+  max-width:300px;
+  margin-top:20px;
+  
+}
+
+.container.myStoryContainer{
+	background-color:#e6e6ff;
+	border-radius:20px;
+}
+
+.container.myStoryContainer h1{
+  font-weight:normal;
+  text-align:center;
+  padding: 0 40px;
+}
+
+.container.myStoryContainer p{
+  text-align:center;
+  padding: 0 40px;
+  color: grey;
+}
+
+.container.proficiencyContainer h1{
+  text-align:center;
+  font-weight:normal;
+  margin-bottom:40px;
+}
+
+.container.proficiencyContainer{
+	
+}
+
+.container.proficiencyContainer img{
+	max-width:100px;
+	margin:0 auto;
+	padding:10px;
+}
+
+container.proficiencyContainer.col-md-1{
+  margin:0 auto;
+}
+
+.container.proficiencyContainer.row{
+}
+
+.container.webContainer{
+  padding:20px;
+}
+
+.webContainer img{
+  width:300px;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+
+.webContainer h1{
+  text-align:center;
+  font-weight:normal;
+}
+
+#webImg{
+  width:100%;
+  border-radius:10px;
+}
+
+.webContainer p{
+  color:grey;
+  padding:20px;
+  font-size:17px;
+}
+
+.container.mobileContainer{
+  padding:20px;
+}
+
+.mobileContainer img{
+  width:150px;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+
+.mobileContainer h1{
+  text-align:center;
+  font-weight:normal;
+}
+
+#mobileImg{
+  width:250px;
+  border-radius:10px;
+  margin-bottom:100px;
+  margin:0 auto;
+  padding-bottom:20px;
+}
+
+.mobileContainer p{
+  color:grey;
+  padding:20px;
+  font-size:17px;
+  margin-top:20px;
+}
+
+.row{
+  margin-bottom:50px;
+}
+
+.container.webContainer{
+  padding:20px;
+}
+
+.webContainer img{
+  width:150px;
+  margin:0 auto;
+  margin-bottom:20px;
+}
+
+.webContainer h1{
+  text-align:center;
+  font-weight:normal;
+}
+
+#webImg{
+  width:100%;
+  border-radius:10px;
+}
+
+.webContainer p{
+  color:grey;
+  padding:20px;
+  font-size:17px;
+}
+
+.webCarousel {
+	
+	width:60%;
+	margin:0 auto; 
+	margin-top:10px; 
+}
+
+@media (max-width:767px) {
+  .webCarousel{
+    width:100%;
+	//margin-top:25px;
+  }
+}
+
+.desktopCarousel {
+	width:60%;
+	margin:0 auto;
+	margin-top:12px;
+	
+	
+}
+
+@media (max-width:767px) {
+  .desktopCarousel{
+    width:100%;
+	//margin-top:25px;
+  }
+}
+
+
+@media (max-width: 991px) {
+    .aboutMeImg {
+        width: 300px;
+        height: 300px;
+    }
+}
+
+.aboutmeCarousel {
+	width:60%;
+	margin:0 auto;
+}
+
+.aboutmeCarousel .carousel-inner .item img {
+    height: 1000px;
+}
+
+#aboutmeCarouselImg {
+    width:100%; 
+    height:400px;
+}
+
+@media (max-width:767px) {
+    #aboutmeCarouselImg {
+        height: 300px;
+    }
+  }
+
+@media (max-width:767px) {
+  .aboutmeCarousel{
+    width:100%;
+  }
+}
+
+.row{
+  margin-bottom:50px;
+}
+
+.container.footerContainer{
+  max-width:100px;
+}
+
+.container.contactContainer{
+  //margin-top:60px;
+  background-color:#e6e6ff;
+  padding:10px;
+  border-radius:20px;
+  max-width:400px;
+}
+
+.contactContainer img{
+  width:150px;
+  border-radius:100%;
+  height:150px;
+  margin-bottom:20px;
+  margin: 0 auto;
+}
+
+.contactContainer p{
+  text-align:center;
+ 
+}
+
+.profilesDiv img{
+  max-width:40px;
+  max-height:40px;
+}
+
+.profilesDiv{
+  width:100px;
+  margin:0 auto;
+}
+
+.contactDiv {
+	margin-top:100px;
+	padding:40px;
+	//background-color:#e6e6ff;
+}
+
+div.container-fluid{
+  background-color:white;
+}
+
+#headingDiv{
+  text-align:center;
+  padding:40px;
+  background:url(../../assets/img/sage.jpg) no-repeat;
+  background-size:cover;
+  height:400px;
+  margin-top:15px;
+  border-radius:15px;
+}
+
+@media (max-width:991px) {
+  #headingDiv{
+    padding:20px;
+	margin-top:35px;
+  }
+}
+
+
+
+#headingDiv .jumbotron{
+  //background-color:rgba(255,255,255,0.75);
+  background-color:#e6e6ff;
+  padding:40px;
+  border-radius:20px;
+  max-width:800px;
+  margin:0 auto;
+  opacity:0.87;
+  
+}
+
+@media (max-width:991px) {
+  #headingDiv .jumbotron{
+    padding:20px;
+  }
+}
+
+.projectsContainer h1{
+  text-align:center;
+}
+
+.projectsContainer{
+  text-align:center;
+  padding:40px 0;
+}
+
+#projectsHeading{
+  font-weight:normal;
+}
+
+.projectHeading{
+  font-weight:normal;
+}
+
+.col-md-4.firstItem h3{
+  font-weight:normal;
+  margin-top:20px;
+  font-size:25px;
+}
+
+
+.col-md-4.firstItem{
+  padding:20px;
+}
+
+.container.projectsContainer img{
+  height:200px;
+  width:250px;
+  margin-top:20px;
+}
+
+div.projectsDiv{
+  background-color:#e6e6ff;
+  padding:0;
+}
+
+.aboutmeDiv{
+  padding:40px;
+}
+
+.aboutmeDiv h1{
+  font-weight:normal;
+  
+}
+
+.aboutmeDiv .col-md-7 p{
+  padding:10px;
+  font-size:17px;
+  color:grey;
+}
+
+@media (max-width:991px) {
+    .aboutmeDiv .col-md-7 p{
+       margin-top: 20px;
+       text-align: center;
+      }
+}
+
+.aboutmeDiv img{
+  margin:0 auto;
+  max-width:350px;
+  margin:0 auto;
+}
+
+.projectsDiv img{
+  border-radius:100%;
+}
+
+.footer img{
+  margin:0 auto;
+  max-width:30px;
+}
+
+.footer{
+  padding:40px;
+}
+
+#linkedin{
+  float:left;
+}
+
+#googlePlus{
+  float:right;
+}
+
